@@ -13,9 +13,9 @@ while(true){
         console.log("Congratulation!! You Guessed Correct number");
         break;
      }else if(guess< random){
-       guess = prompt("hint: You guess is too small!! Please try again");
+       guess = prompt("hint: Your guess is too small!! Please try again");
      }else {
-       guess = prompt("hint: You guess is too large!! Please try again");
+       guess = prompt("hint: Your guess is too large!! Please try again");
      }
      
 }
